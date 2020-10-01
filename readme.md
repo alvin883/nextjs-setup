@@ -2,11 +2,11 @@
 
 Including:
 
-1. SCSS / CSS & JS Minifying (both Production & Development)
-2. SCSS / CSS SourceMaps (Production only)
-3. SCSS / CSS Import Font support
-4. Browserlist files
-5. Customized Webpack configuration (next.config.js)
+1. SCSS / CSS & JS Minified
+2. SCSS / CSS SourceMaps
+3. Standalone Browserlist configuration
+4. Standalone Prettier configutation
+5. Bootstrap Grid ready to go!
 
 > ##### Note :
 >

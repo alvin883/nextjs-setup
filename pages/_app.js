@@ -1,20 +1,15 @@
-import React from "react";
-import App from "next/app";
-import Head from "next/head";
-import "../scss/style.scss";
+import '../scss/styles.scss';
+import Head from 'next/head';
 
-class MyApp extends App {
-  render() {
-    const { Component, pageProps } = this.props;
-    return (
-      <div>
-        <Head>
-          <title>Next JS Setup</title>
-        </Head>
-        <Component {...pageProps} />
-      </div>
-    );
-  }
-}
+const App = ({ Component, pageProps }) => {
+  return (
+    <>
+      <Head>
+        <title>Next JS Setup</title>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
+};
 
-export default MyApp;
+export default App;
