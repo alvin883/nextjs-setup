@@ -1,3 +1,5 @@
+import ExampleAlias from '@components/example-alias';
+
 const Home = () => (
   <div className="welcome">
     <div className="welcome__inner">
@@ -20,6 +22,7 @@ const Home = () => (
           </li>
           <li>Happy hacking!</li>
         </ul>
+        <ExampleAlias />
       </div>
     </div>
   </div>
